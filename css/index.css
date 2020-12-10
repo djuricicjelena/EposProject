@@ -5,7 +5,7 @@
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     height: 10vh;
     align-items: center;
 }
@@ -26,6 +26,23 @@
 
 .header {
     background-color: #EDFF00;
+    color: #4f494b;
+}
+
+.header a:link {
+    text-decoration: none;
+}
+
+.header a:visited {
+    text-decoration: none;
+}
+
+.header a:hover {
+    text-decoration: none;
+}
+
+.header a:active {
+    text-decoration: none;
 }
 
 .header-link {
