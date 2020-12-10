@@ -11,7 +11,38 @@
 }
 
 .main-screen {
-    height: 90%;
+    height: 90vh;
 }
 
-.brand {}
+.brand {
+    height: 30vh;
+    margin-top: 30vh;
+    margin-bottom: 30vh;
+    width: 60%;
+    margin-left: 20%;
+    font-size: 145px;
+    text-align: center;
+}
+
+.header {
+    background-color: #EDFF00;
+}
+
+.header-link {
+    width: 60px;
+    padding: 2.43%;
+}
+
+.header-link:hover {
+    background-color: #A2A0A5;
+}
+
+.header-link .activated {
+    background-color: #A2A0A5;
+}
+
+.header-button {
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+}
