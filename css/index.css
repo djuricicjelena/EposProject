@@ -30,18 +30,22 @@
 }
 
 .header a:link {
+    color: #4f494b;
     text-decoration: none;
 }
 
 .header a:visited {
+    color: #4f494b;
     text-decoration: none;
 }
 
 .header a:hover {
+    color: #4f494b;
     text-decoration: none;
 }
 
 .header a:active {
+    color: #4f494b;
     text-decoration: none;
 }
 
