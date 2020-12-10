@@ -29,6 +29,10 @@
     color: #4f494b;
 }
 
+.hear a {
+    color: #4f494b;
+}
+
 .header a:link {
     color: #4f494b;
     text-decoration: none;
@@ -52,14 +56,17 @@
 .header-link {
     width: 60px;
     padding: 2.43%;
+    color: #4f494b;
 }
 
 .header-link:hover {
     background-color: #A2A0A5;
+    color: #EDFF00;
 }
 
 .header-link .activated {
     background-color: #A2A0A5;
+    color: #EDFF00;
 }
 
 .header-button {
