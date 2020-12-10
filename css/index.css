@@ -29,7 +29,7 @@
     color: #4f494b;
 }
 
-.hear a {
+.header a {
     color: #4f494b;
 }
 
@@ -44,7 +44,7 @@
 }
 
 .header a:hover {
-    color: #4f494b;
+    color: #EDFF00;
     text-decoration: none;
 }
 
@@ -64,7 +64,9 @@
     color: #EDFF00;
 }
 
-.header-link .activated {
+.header-link-activated {
+    width: 60px;
+    padding: 2.43%;
     background-color: #A2A0A5;
     color: #EDFF00;
 }
