@@ -67,7 +67,7 @@
     width: 60px;
     padding: 2.43%;
     background-color: #A2A0A5;
-    color: #EDFF00;
+    color: #EDFF00 !important;
 }
 
 .header-button {
