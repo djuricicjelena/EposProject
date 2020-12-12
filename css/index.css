@@ -59,15 +59,15 @@
 }
 
 .header-link:hover {
-    background-color: #A2A0A5;
-    color: #EDFF00;
+    background-color: #4f494b;
+    color: #FFF200;
 }
 
 .header-active {
     width: 60px;
     padding: 2.43%;
-    background-color: #A2A0A5;
-    color: #EDFF00 !important;
+    background-color: #4f494b;
+    color: #FFF200 !important;
 }
 
 .header-button {
