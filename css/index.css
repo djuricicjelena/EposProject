@@ -1,3 +1,18 @@
+@font-face {
+    font-family: "Merriweather-Regular";
+    src: url("../fonts/Merriweather-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Merriweather-Black";
+    src: url("../fonts/Merriweather-Black.ttf");
+}
+
+@font-face {
+    font-family: "Merriweather-Bold";
+    src: url("../fonts/Merriweather-Bold.ttf");
+}
+
 body {
     margin: 0;
     background-image: url("../images/black-background.jpg");
@@ -16,12 +31,14 @@ body {
     background: rgb(255, 200, 0);
     background: linear-gradient(90deg, rgba(255, 200, 0, 1) 0%, rgba(237, 255, 0, 1) 50%, rgba(255, 200, 0, 1) 100%);
     z-index: 999;
+    font-family: "Merriweather-Black";
 }
 
 .main-screen {
     height: 80%;
     display: flex;
     justify-content: center;
+    font-family: "Merriweather-Regular";
 }
 
 .brand {
@@ -59,7 +76,7 @@ body {
 }
 
 .header-link {
-    width: 60px;
+    width: 68px;
     padding: 3.56vh;
     color: #111111;
 }
@@ -70,15 +87,15 @@ body {
 }
 
 .header-active {
-    width: 60px;
+    width: 68px;
     padding: 3.56vh;
     background-color: #111111;
     color: #FFF200 !important;
 }
 
 .header-button {
-    font-size: 17px;
-    line-height: 21px;
+    font-size: 15px;
+    line-height: 18px;
     text-align: center;
 }
 
@@ -98,6 +115,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    font-family: "Merriweather-Bold";
 }
 
 .footer .left-side {
@@ -117,8 +135,11 @@ body {
     margin-right: 50px;
 }
 
-.footer .right-side img {
+.footer .right-side a {
     margin-right: 10px;
+}
+
+.footer .right-side a img {
     width: 40px;
     height: 40px;
 }
