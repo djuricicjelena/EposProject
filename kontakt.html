@@ -7,6 +7,11 @@
     <title>SPEED UP</title>
     <link rel="stylesheet" href="css/index.css" type="text/css">
     <link rel="stylesheet" href="css/kontakt.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+
+
 </head>
 
 <body>
@@ -30,27 +35,26 @@
 
         </div>
         <div class="main-screen">
-            <div class="contact-form">
+            <form name="myForm" id="myForm" class="contact-form" method="post">
                 <label class="contact-label">Ime</label>
-                <input class="contact-input" id="ime" type="text" placeholder="Unesite ime" required>
+                <input name="fname" class="contact-input" id="ime" type="text" placeholder="Unesite ime" required>
 
                 <label class="contact-label">Prezime</label>
-                <input class="contact-input" id="prezime" type="text" placeholder="Unesite prezime" required>
+                <input name="fsurname" class="contact-input" id="prezime" type="text" placeholder="Unesite prezime" required>
 
                 <label class="contact-label">Email</label>
-                <input class="contact-input" id="email2" type="text" placeholder="Unesite email adresu" name="email1"
+                <input name="fmail" class="contact-input" id="email" type="text" placeholder="Unesite email adresu" name="email1"
                     required>
 
                 <label class="contact-label">Predmet</label>
-                <input class="contact-input" id="predmet" type="text" placeholder="Unesite predmet" required>
+                <input name="fsubject" class="contact-input" id="predmet" type="text" placeholder="Unesite predmet" required>
 
                 <label class="contact-label">Poruka</label>
-                <textarea class="contact-input" id="poruka" placeholder="Unesite poruku" required></textarea>
+                <textarea name="fmessage" class="contact-input" id="poruka" placeholder="Unesite poruku" required></textarea>
 
-                <button class="contact-button">
-                    Potvrdi
-                </button>
-            </div>
+                <button class="contact-button" type="submit" form="myForm" value="Submit" onclick="submitForm()">Posalji</button>
+                    
+            </form>
         </div>
         <div class="footer">
             <div class="left-side">
@@ -65,7 +69,8 @@
             </div>
         </div>
     </div>
-
+    <script src="js/formValidation.js"></script>
+    
 
 
 </body>
