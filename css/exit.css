@@ -1,49 +1,65 @@
 .news {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
 }
 
 .news-segment {
-
-    display: flex;
-    flex-direction: column;
-    width: 25%;
-    height: 400px;
-    background-color: white;
-    margin-bottom: 150px;
-    margin-top: 100px;
-    margin-right: 40px;
-    cursor: pointer;
-    transition: all .2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 400px;
+  background-color: white;
+  margin-bottom: 150px;
+  margin-top: 100px;
+  margin-right: 40px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
 
 .news-segment:hover {
-    box-shadow: 0px 0px 40px 10px #EDFF00;
+  box-shadow: 0px 0px 40px 10px #edff00;
 }
 
 .news-image {
-    flex: 0 0 34%;
-    overflow: hidden;
+  flex: 0 0 34%;
+  overflow: hidden;
 }
 
 .news-image img {
-    width: 100%;
+  width: 100%;
 }
 
-.news-title {
-    flex: 0 0 4%;
-    text-align: center;
-    padding: 15px;
-    font-size: 15px;
+.news-segment:first-child .news-content{
+  flex: 0 0 45%;
 
+}
+.exit-date {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.news-title {
+  flex: 0 0 4%;
+  text-align: center;
+  padding: 15px;
+  font-size: 15px;
 }
 
 .news-content {
-    flex: 0 0 62%;
-    height: 200px;
-    font-size: 12px;
-    text-align: center;
+  flex: 0 0 62%;
+  height: 200px;
+  font-size: 12px;
+  text-align: center;
+}
 
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
