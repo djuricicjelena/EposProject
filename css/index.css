@@ -41,16 +41,6 @@ body {
     font-family: "Merriweather-Regular";
 }
 
-.brand {
-    height: 30vh;
-    margin-top: 30vh;
-    margin-bottom: 30vh;
-    width: 60%;
-    margin-left: 20%;
-    font-size: 145px;
-    text-align: center;
-}
-
 .header a {
     color: #111111;
 }
@@ -144,25 +134,3 @@ body {
     height: 40px;
 }
 
-
-
-
-
-
-
-@media only screen and (max-width: 450px) {
-    .header-link {
-        width: 30px;
-        padding: 3.56vh;
-    }
-
-    .header-active {
-        width: 30px;
-        padding: 3.56vh;
-    }
-
-    .header-button {
-        font-size: 13px;
-        line-height: 15px;
-    }
-}
